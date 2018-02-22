@@ -6,6 +6,17 @@ from lxml import html
 import requests
 
 cpostTrackUrl = 'https://www.postaonline.cz/trackandtrace/-/zasilka/cislo?parcelNumbers='
+ebayTrackUrl = 'https://www.ebay.com/myb/Summary?MyEbay&gbh=1'
+
+def getEbayTrkNums():
+    """Function gets provided tracking labels from My eBay page"""
+    page = requests.get(ebayTrackUrl)
+    tree = html.fromstring(page.content)
+
+    trkLbl = tree.xpath('//p[@class="tracking-label"]/text()')
+    # trkLbl = tree.xpath('//p[@class="iframe-modal"]/text()')
+
+    print(trkLbl)
 
 def findMyPackage(trackNumber):
     """Main function executed after prog run"""
