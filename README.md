@@ -22,8 +22,23 @@ Lets say you want to find out where is your package with tracking number ABCDE12
 python cpostTracking.py ABCDE12345
 ```
 
+## installFavsPkg.sh
+This script install my favourite Fedora packages (for fresh Fedora distribution).
+
+### Prerequisites
+```
+BASH >= 4.4.23
+```
+
+### Running
+The installFavsPkg.sh syntax is following:
+```
+./installFavsPkg.sh
+```
+
 ## Written In
 * [Python 3.6.0](https://docs.python.org/3/)
+* [BASH](https://www.gnu.org/software/bash/)
 
 ## Contributing
 Please read [CONTRIBUTING.md](https://github.com/botisko/Utils/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
