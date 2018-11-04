@@ -39,7 +39,6 @@ sudo dnf install firefox
 echo -e "${LBLUE}Installing LIBREOFFICE...${NC}"
 sudo dnf install libreoffice
 
-<<<<<<< HEAD
 ### GIT ###
 echo -e "${LBLUE}Installing GIT...${NC}"
 sudo dnf install git
@@ -48,8 +47,6 @@ sudo dnf install git
 echo -e "${LBLUE}Installing MC...${NC}"
 sudo dnf install mc
 
-=======
->>>>>>> 5463cb1aa3c7b1ebc5052d5e79411358d32096ac
 ##### CLEAN UP #####
 echo -e "${LBLUE}Cleaning up...${NC}"
 sudo dnf autoremove
