@@ -8,4 +8,4 @@ Script for scrapping daily menus from restaurant websites near Honeywell Brno si
 * [Python 3](https://docs.python.org/3/)
 
 ## Authors
-* **botisko** - [Utils/daily-menu](https://github.com/botisko/Utils/daily-menu/)
+* **botisko** - [Utils/daily-menu](https://github.com/botisko/Utils/tree/master/daily-menu/)

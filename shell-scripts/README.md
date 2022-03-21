@@ -35,4 +35,4 @@ The installFedoraPkgsWork.sh syntax is following:
 * [BASH](https://www.gnu.org/software/bash/)
 
 ## Authors
-* **botisko** - *Initial work* - [Utils/shell-scripts](https://github.com/botisko/Utils/shell-scripts/)
+* **botisko** - *Initial work* - [Utils/shell-scripts](https://github.com/botisko/Utils/tree/master/shell-scripts/)
